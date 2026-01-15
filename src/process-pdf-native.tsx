@@ -256,7 +256,7 @@ export default function Command() {
         actions={
           <ActionPanel>
             <Action.CopyToClipboard
-              title="Copy To Clipboard"
+              title="Copy to Clipboard"
               content={finalResult}
             />
             <Action.Paste content={finalResult} />
@@ -306,7 +306,7 @@ export default function Command() {
         actions={
           <ActionPanel>
             <Action.CopyToClipboard
-              title="Copy To Clipboard"
+              title="Copy to Clipboard"
               content={finalResult}
             />
             <Action.Paste content={finalResult} />
@@ -329,7 +329,7 @@ export default function Command() {
     <Form
       actions={
         <ActionPanel>
-          <Action.SubmitForm title="Process PDF" onSubmit={handleSubmit} />
+          <Action.SubmitForm title="Process Pdf" onSubmit={handleSubmit} />
         </ActionPanel>
       }
     >

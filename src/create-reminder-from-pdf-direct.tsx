@@ -211,12 +211,12 @@ export default function Command() {
       actions={
         <ActionPanel>
           <Action.SubmitForm
-            title="Create Reminder from PDF"
+            title="Create Reminder from Pdf"
             onSubmit={handleSubmit}
           />
           {clipboardFiles.length > 0 && (
             <Action
-              title="Paste From Clipboard"
+              title="Paste from Clipboard"
               icon={Icon.Clipboard}
               shortcut={{ modifiers: ["cmd"], key: "v" }}
               onAction={handlePasteFromClipboard}
